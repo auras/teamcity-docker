@@ -1,8 +1,8 @@
 FROM java:8
 
-MAINTAINER Sjoerd Mulder <sjoerd@crobox.com>
+MAINTAINER Aurelian Dumanovschi <aurasd@gmail.com>
 
-ENV TEAMCITY_VERSION 2017.2
+ENV TEAMCITY_VERSION 2017.2.1
 ENV TEAMCITY_DATA_PATH /var/lib/teamcity
 
 # Get and install teamcity
